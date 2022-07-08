@@ -7,7 +7,7 @@ function HomeBody() {
     
     // useEffect(() => getPic(), []);
 
-    if (!currentPic) return <div />;
+    if (!currentPic) return <div></div>;
 
     return (
         <div className="pic pic-container">
