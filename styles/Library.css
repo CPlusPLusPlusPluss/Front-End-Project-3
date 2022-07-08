@@ -1,0 +1,19 @@
+.library-container {
+    background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.70)), rgba(255, 255, 255, 0.60) url(images/86eb261c84293cfd28016d728b308673.jpeg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 2200px;
+    width: 100%;
+    font-size: 1em;
+    padding-top: 14vmax;
+}
+
+.library-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
