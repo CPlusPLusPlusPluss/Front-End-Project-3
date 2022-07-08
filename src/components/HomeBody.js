@@ -1,25 +1,12 @@
 import { useState, useEffect } from 'react';
 import '../styles/reset.css';
-import '../styles/PicPerDay.css'
+import '../styles/HomeBody.css'
 
-function PicPerDay() {
+function HomeBody() {
     const [currentPic, setCurrentPic] = useState('');
-    const processing = {
-        key: process.env.REACT_APP_NASA_KEY,
-    };
     
     useEffect(() => getPic(), []);
 
-    function getPic() {
-        let url = `https://api.nasa.gov/planetary/apod?api_key=${processing.key}`;
-        fetch(url)
-            .then(response => response.json())
-            .then(response => {
-                console.log(response);
-                setCurrentPic(response);
-            })
-            .catch((err) => console.log(err));
-    }
     if (!currentPic) return <div />;
 
     return (
@@ -37,4 +24,4 @@ function PicPerDay() {
     );
 }
 
-export default PicPerDay;
+export default HomeBody;
