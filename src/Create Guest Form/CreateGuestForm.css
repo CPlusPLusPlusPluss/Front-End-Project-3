@@ -1,5 +1,5 @@
 .Form-Page-Container {
-    min-height: 100vh;
+    height: 100vh;
     /* background-color: whitesmoke; */
     display: grid;
     place-items: center center;
@@ -53,7 +53,6 @@
 .form-submit {
     padding: 0.5em;
     font-size: 1.3em;
-    /* background-color: rgb(169, 92, 92); */
     background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.25)), rgba(0, 0, 0, 0.06);
     border: none;
     border-radius: 0.5em;
