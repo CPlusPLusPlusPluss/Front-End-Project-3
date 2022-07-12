@@ -59,7 +59,7 @@ li {
     background-position: center center;
     background-size: cover;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .carousel__viewport {
     position: absolute;

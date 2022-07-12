@@ -20,7 +20,7 @@ html {
 
 .link {
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-left: 3vw;
   padding-right: 3vw;
   padding-bottom: 10px;
@@ -48,7 +48,7 @@ html {
 }
 
 .main-container {
-  position: fixed;
+  position: relative;
   width: 100%;
   background-color: lightblue;
   height: 100%;

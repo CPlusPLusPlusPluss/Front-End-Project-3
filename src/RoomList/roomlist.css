@@ -12,7 +12,7 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 1500px;
+    height: 1100px;
     align-items: center;
     padding: 5px;
     font-size: 5rem;
@@ -20,28 +20,37 @@
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
     justify-content: center;
     padding-top: 200px;
 }
 
 .grid-item {
+    display: flex;
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    border-radius: 10px;
     padding: 20px;
+    box-shadow: 0 2px 10px 0;
     font-size: 30px;
     text-align: center;
     height: 100px;
     width: 100px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .available {
-    background-color: green;
+    background-color: #028A0F;
+    opacity: 90%;
 }
 
 .occupied {
-    background-color: red;
+    background-color: #c21807;
+    opacity: 90%;
 }
