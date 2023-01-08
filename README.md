@@ -7,7 +7,7 @@ Here you will find...
 ### `Code`
 
 Follow these links for the front-end:
-[Website Link](https://cozy-gnome-816bc0.netlify.app/), 
+[Website Link](https://gitz-carlton.netlify.app/), 
 [Github Link](https://github.com/CPlusPLusPlusPluss/Front-End-Project-3)</br>
 and these links are for the back-end:
 [API Link](https://secret-waters-54413.herokuapp.com), 
